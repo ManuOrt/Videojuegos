@@ -1,0 +1,118 @@
+body {
+    background-color: #1e4f6f;
+    padding: 0px 60px 20px 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100vh;
+}
+
+h1 {
+    margin: 0px;
+}
+
+a {
+    text-decoration: initial;
+}
+
+.imagen {
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    position: relative;
+    float: right;
+    padding: 20px;
+}
+
+header {
+    background-color: black;
+}
+
+#search {
+    width: 300px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-image: url(/img/bg_menu.png);
+    padding: 4px;
+    padding-left: 50px;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(180, 178, 178);
+    margin: 2px;
+}
+
+.first-block {
+    background-image: url(/img/final.jpg);
+    width: 70%;
+    padding: 65px 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title-red {
+    color: red;
+    font-size: 30px;
+}
+
+.title-white {
+    color: white;
+}
+
+.news {
+    margin-top: 0px;
+    background-color: black;
+    padding: 10px;
+}
+
+.noticias {
+    color: white;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0;
+    display: block;
+}
+
+.text-rigth {
+    color: white;
+}
+
+footer {
+    background-image: url(/img/bg_peu.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 20px 0px;
+}
+
+.copyrigth {
+    color: grey;
+    text-align: center;
+    font-size: 12px;
+}
+
+.news-article {
+    display: flex;
+    align-items: center;
+}
+
+.news-article:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.news-article p {
+    margin-left: 5px;
+}
+
+section {
+    height: 400px;
+    display: flex;
+}
